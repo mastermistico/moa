@@ -1,0 +1,15 @@
+{
+  "environment": "development",
+  "hydra": {
+    "serviceName": "writer-service",
+    "serviceIP": "",
+    "servicePort": 3005,
+    "serviceType": "writer",
+    "serviceDescription": "",
+    "redis": {
+      "url": "127.0.0.1",
+      "port": 6379,
+      "db": 15
+    }
+  }
+}

@@ -1,0 +1,20 @@
+//- template.pug
+
+- var arr=result
+- var s = 'string';
+doctype html
+html
+    head
+    body
+        p table!
+        table(style='width:100%', border='1')
+            tr
+              th Email
+              th Prices
+            each item in arr
+             tr
+              td= item.email
+              td
+                ol
+                 each it in item.price
+                    li= it 

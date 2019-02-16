@@ -1,0 +1,15 @@
+{
+  "environment": "development",
+  "hydra": {
+    "serviceName": "order-ad-service",
+    "serviceIP": "",
+    "servicePort": 5000,
+    "serviceType": "order-ad",
+    "serviceDescription": "order ad",
+    "redis": {
+      "url": "127.0.0.1",
+      "port": 6379,
+      "db": 15
+    }
+  }
+}
